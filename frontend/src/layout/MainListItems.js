@@ -166,11 +166,14 @@ const MainListItems = (props) => {
               primary={i18n.t("mainDrawer.listItems.settings")}
               icon={<SettingsOutlined />}
             />
+
+              {/* Deixei o menu da API oculto para segurança do sistema */}
+
             <Divider className={classes.divider} />
             <ListSubheader inset className={classes.sub}>
               {i18n.t("mainDrawer.listItems.apititle")}
             </ListSubheader>
-            <ListItemLink
+            {/* <ListItemLink
               to="/api"
               primary={i18n.t("mainDrawer.listItems.api")}
               icon={
@@ -183,7 +186,7 @@ const MainListItems = (props) => {
               icon={
                 <MenuBook />
               }
-            />
+            /> */}
             <ListItemLink
               to="/apikey"
               primary={i18n.t("mainDrawer.listItems.apikey")}
@@ -195,7 +198,7 @@ const MainListItems = (props) => {
         )}
       />
       <span className={classes.systemCss}>
-        <Link color="inherit" href={system.url || "https://github.com/rtenorioh/Press-Ticket"}>
+        <Link color="inherit" href={system.url || "https://github.com/SafiraSoft1"}>
           v{systemVersion}
         </Link>
       </span>

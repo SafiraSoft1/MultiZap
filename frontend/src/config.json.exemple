@@ -1,15 +1,15 @@
 {
     "system": {
-        "name": "Press Ticket",
-        "url": "https://pressticket.com.br",
+        "name": "MultiZap!",
+        "url": "https://SafiraSoft.tk",
         "color": {
             "lightTheme": {
                 "palette": {
-                    "primary": "#6B62FE",
-                    "secondary": "#F50057"
+                    "primary": "#006633",
+                    "secondary": "#006633"
                 },
                 "toolbar": {
-                    "background": "linear-gradient(to right, #6B62FE, #f50057)"
+                    "background": "linear-gradient(to right, #006633, #003333)"
                 },
                 "menuItens": "#ffffff",
                 "sub": "#ffffff",
